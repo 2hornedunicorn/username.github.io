@@ -1,0 +1,59 @@
+  /* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Set font for the entire page */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Header Styles */
+header {
+    background-color: #333; /* Dark background for header */
+    color: white; /* White text color */
+    padding: 1em 0; /* Padding around the header */
+    text-align: center; /* Center-align the text */
+}
+
+/* Navigation Bar Styles */
+nav a {
+    color: white; /* White text for nav links */
+    padding: 14px 20px; /* Padding inside the links */
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Keep the links inline */
+}
+
+/* Change background color on hover */
+nav a:hover {
+    background-color: #575757; /* Gray background on hover */
+}
+
+/* Section Styles */
+section {
+    padding: 2em; /* Padding around the section content */
+    margin: 1em auto; /* Center section with margin */
+    max-width: 800px; /* Set a maximum width */
+    background-color: white; /* White background for content */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: white; /* White text */
+    text-align: center; /* Center-align text */
+    padding: 1em 0; /* Padding around footer content */
+    position: fixed; /* Stick footer to the bottom */
+    bottom: 0;
+    width: 100%;
+}
+
+/* Heading Styles */
+h1, h2 {
+    color: #333; /* Dark gray color for headings */
+}
+
+/* Paragraph Styles */
+p {
+    color: #555; /* Medium gray color for paragraph text */
+}
